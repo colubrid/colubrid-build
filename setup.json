@@ -1,0 +1,15 @@
+{
+    "type": "builder",
+    "modules": {
+        "colubrid-devel": {
+            "type": ["github", "python"],
+            "place": "colubrid/colubrid-devel",
+            "dependencies": []
+        },
+        "colubrid": {
+            "type": ["github", "colubrid"],
+            "place": "colubrid/colubrid",
+            "dependencies": ["colubrid-devel"]
+        }
+    }
+}

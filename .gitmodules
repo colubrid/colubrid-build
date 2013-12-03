@@ -1,0 +1,3 @@
+[submodule "colubrid-devel"]
+	path = colubrid-devel
+	url = git://github.com/colubrid/colubrid-devel
